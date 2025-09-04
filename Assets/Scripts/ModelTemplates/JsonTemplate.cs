@@ -3,7 +3,7 @@ using UnityEngine;
 [System.Serializable]
 public class JsonTemplate
 {
-    public Model3D record;
+    public Model3D[] record;
 }
 
 public class Model3D
