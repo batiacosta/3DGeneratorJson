@@ -1,4 +1,10 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement style="flex-grow: 1;" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row; height: 10%; align-items: flex-end; justify-content: flex-end;">
+        <ui:TextField label="Json URL" placeholder-text="URL" name="URLField" style="width: 64%; font-size: 40px;" />
+        <ui:Button text="Generate Mesh" name="GenerateButton" style="font-size: 40px; background-color: rgb(1, 220, 253); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; height: 70%;">
+        <ui:DropdownField label="SelectMesh" name="DropDown" />
+    </ui:VisualElement>
     <ui:Label text="asdasds&#10;adasd&#10;fdas&#10;da&#10;sd&#10;ad" name="DebugLabelText" style="font-size: 16px; white-space: normal; -unity-font-style: bold; -unity-text-outline-width: 0; -unity-text-outline-color: rgb(255, 255, 255);" />
 </ui:UXML>

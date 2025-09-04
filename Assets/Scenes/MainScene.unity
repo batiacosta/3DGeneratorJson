@@ -434,7 +434,7 @@ Transform:
   m_GameObject: {fileID: 588692764}
   serializedVersion: 2
   m_LocalRotation: {x: 0.013089597, y: 0, z: 0, w: 0.99991435}
-  m_LocalPosition: {x: 0, y: 0.2617695, z: -9.846574}
+  m_LocalPosition: {x: 0, y: 0.2617695, z: -9.996573}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -582,6 +582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 579e904f4e78c45a5a86e4843d4196f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ViewControllerWindow
+  geometryManager: {fileID: 2086642049}
 --- !u!1 &1150238269
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,7 +791,7 @@ Transform:
   m_GameObject: {fileID: 1182021429}
   serializedVersion: 2
   m_LocalRotation: {x: 0.013089597, y: 0, z: 0, w: 0.99991435}
-  m_LocalPosition: {x: 0, y: 0.2617695, z: -9.846574}
+  m_LocalPosition: {x: 0, y: 0.2617695, z: -9.996573}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -859,7 +860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &1770679626
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -908,7 +909,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: d09c77ed37c4148f99834bb9b7197781, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -980,7 +981,7 @@ Transform:
   m_GameObject: {fileID: 2086642047}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0.15}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -998,8 +999,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21ebf22674f8a466dafc5c2b483cf587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GeometryManager
-  url: https://api.jsonbin.io/v3/b/68b7786043b1c97be934ead9
-  material: {fileID: 2100000, guid: 28ad909394e4f4c098e94337035abe8b, type: 2}
+  url: https://api.jsonsilo.com/public/9c8a1e6c-2e6c-434c-a4ca-d5160fe60cbd
+  opaqueMaterial: {fileID: 2100000, guid: 28ad909394e4f4c098e94337035abe8b, type: 2}
+  transluscentMaterial: {fileID: 2100000, guid: d09c77ed37c4148f99834bb9b7197781, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
