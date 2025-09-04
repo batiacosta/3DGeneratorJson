@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 public class GeometryManager : MonoBehaviour
 {
-    [SerializeField] private string url;
+    [SerializeField] private string url = "https://api.jsonbin.io/v3/b/68b7786043b1c97be934ead9";
     [SerializeField] private Material material;
     
     private JsonTemplate _jsonTemplate = new JsonTemplate();

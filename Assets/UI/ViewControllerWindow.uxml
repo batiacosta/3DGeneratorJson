@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;" />
+    <ui:Label text="asdasds&#10;adasd&#10;fdas&#10;da&#10;sd&#10;ad" name="DebugLabelText" style="font-size: 16px; white-space: normal; -unity-font-style: bold; -unity-text-outline-width: 0; -unity-text-outline-color: rgb(255, 255, 255);" />
+</ui:UXML>
